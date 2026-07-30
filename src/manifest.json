@@ -1,0 +1,39 @@
+{
+  "name": "ai-medical-imaging-assistant",
+  "appid": "__UNI__MEDICAL_IMAGING",
+  "description": "AI医学影像检查全流程助手",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "mp-weixin": {
+    "optimization": {
+      "subPackages": true
+    },
+    "lazyCodeLoading": "requiredComponents",
+    "setting": {
+      "urlCheck": false,
+      "es6": true,
+      "enhance": true,
+      "postcss": true,
+      "minified": true
+    },
+    "usingComponents": true,
+    "permission": {
+      "scope.userLocation": {
+        "desc": "用于获取医院位置信息"
+      }
+    }
+  },
+  "h5": {
+    "devServer": {
+      "port": 8080,
+      "https": false
+    },
+    "router": {
+      "mode": "hash"
+    }
+  },
+  "uniStatistics": {
+    "enable": false
+  }
+}
