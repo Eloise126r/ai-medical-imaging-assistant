@@ -37,5 +37,11 @@
   },
   "uniStatistics": {
     "enable": false
+  },
+  "networkTimeout": {
+    "request": 3000,
+    "connectSocket": 3000,
+    "uploadFile": 3000,
+    "downloadFile": 3000
   }
 }
