@@ -25,12 +25,14 @@
     }
   },
   "h5": {
+    "publicPath": "/ai-medical-imaging-assistant/",
     "devServer": {
       "port": 8080,
       "https": false
     },
     "router": {
-      "mode": "hash"
+      "mode": "hash",
+      "base": "/ai-medical-imaging-assistant/"
     }
   },
   "uniStatistics": {
